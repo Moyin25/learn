@@ -67,30 +67,16 @@
       <button>Apply Now</button>
     </section>
     <script>
-      // let hometown = prompt("What is your hometown?");
-      // alert(hometown);
-      // let first_name = prompt("What is your first name");
-      // let last_name = prompt("What is your last name");
-      // alert(first_name + " " + last_name);
-
-      // let language = prompt("Which language do you speak?");
-      // if (language === "French") {
-      //   alert("Bonjour");
-      // }
-      // if (language !== "French") {
-      //   alert("👋");
-      // }
       let time = prompt("What is your current hour?");
       if (time < 12) {
-        alert("Good Morning");
+        alert("Good Morning ☀️");
+      } else {
+        if (time > 18) {
+          alert("Good evening 🌙");
+        } else {
+          alert("God afternoon 😎");
+        }
       }
-      if (time >= 12) {
-        alert("Good Afternoon");
-      } 
-      // if (time <= 18 ) {
-      //   alert("Good evening");
-      // }
-      
     </script>
   </body>
 </html>
